@@ -34,6 +34,10 @@ body{
     border-radius: 20px;
 }
 .nftImg::before{
+    transition: 1s;
+    opacity: 0;
+}
+.nftImg:hover::before{
     content: "";
     position: absolute;
     width: 21%;
@@ -43,15 +47,7 @@ body{
     transition: 1s;
     opacity: 1;
 }
-.nftImg:hover::before{
-    transition: 1s;
-    opacity: 0;
-}
 .nftImg:hover .svg{
-    transition: 1s;
-    opacity: 0;
-}
-.nftImg .svg{
     transition: 1s;
     opacity: 1;
     height: 50px;
@@ -61,6 +57,10 @@ body{
     top: 50%;
     margin-top: -150px;
     margin-left: -25px;
+}
+.nftImg .svg{
+    transition: 1s;
+    opacity: 0;
 }
 .content h1{
     color: hsl(0, 0%, 100%);
@@ -142,7 +142,7 @@ body{
         width: 100%;
         box-shadow: none;
     }
-    .nftImg::before{
+    .nftImg:hover::before{
         content: "";
         position: absolute;
         width: 76%;
