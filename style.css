@@ -37,7 +37,7 @@ body{
     content: "";
     position: absolute;
     width: 21%;
-    height:38%;
+    height:36.5%;
     background-color:hsla(178, 100%, 50%, 0.2);
     border-radius: 20px;
     transition: 1s;
@@ -146,7 +146,7 @@ body{
         content: "";
         position: absolute;
         width: 76%;
-        height: 31%;
+        height: 34.5%;
         background-color:hsla(178, 100%, 50%, 0.2);
         border-radius: 20px;
         transition: 1s;
